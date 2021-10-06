@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/Copperearth/AutofarmController/pkg/websocket"
+	"github.com/Copperearth/AutofarmController/pkg/websocket.go"
 )
 
 func serveWs(w http.ResponseWriter, r *http.Request) {
